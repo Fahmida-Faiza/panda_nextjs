@@ -1,4 +1,5 @@
 import Fahmida from "@/components/Fahmida";
+import Footer from "@/components/Footer";
 
 
 
@@ -9,6 +10,9 @@ const page = () => {
              
         
        < Fahmida/>
+
+      
+       <Footer/>
         
         
         </>

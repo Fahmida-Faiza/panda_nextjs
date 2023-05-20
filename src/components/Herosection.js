@@ -2,6 +2,7 @@ import heroStyles from "@/app/styles/herosection.module.css";
 import styles from "@/app/styles/common.module.css";
 import Link from "next/link";
 
+
 import Image from "next/image";
 
 const Herosection = ({ title, imageUrl }) => {
@@ -10,10 +11,7 @@ const Herosection = ({ title, imageUrl }) => {
       <div className={styles.container}>
         <div className={styles.grid_two_section}>
           <div className={heroStyles.hero_content}>
-            <h1>
-              {title}
-            </h1>
-            
+            <h1>{title}</h1>
 
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
@@ -28,7 +26,7 @@ const Herosection = ({ title, imageUrl }) => {
           </div>
           <div className={heroStyles.hero_image}>
             <Image
-              src={"/pic.jpg"}
+              src={imageUrl}
               alt="watching blogs"
               width={800}
               height={500}
@@ -37,7 +35,7 @@ const Herosection = ({ title, imageUrl }) => {
         </div>
       </div>
 
-      <div className={heroStyles['custom-shape-divider-bottom-1683986757']}>
+      <div className={heroStyles["custom-shape-divider-bottom-1683986757"]}>
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -50,6 +48,10 @@ const Herosection = ({ title, imageUrl }) => {
           ></path>
         </svg>
       </div>
+
+
+      {/*  */}
+      
     </main>
   );
 };

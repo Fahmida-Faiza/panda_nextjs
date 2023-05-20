@@ -4,7 +4,8 @@ import styles from "../app/blog/faiza.module.css"
 const Fahmida = () => {
     return (
         <div className={styles.row}>
-            <h1>Card</h1>
+         
+            <h1>Blogs</h1>
 
 <div class="card">
    <Image
@@ -16,15 +17,12 @@ const Fahmida = () => {
   <div class="container">
     <h4><b>Fahmida Faiza</b></h4> 
     <p>CSE Engineer</p> 
-    
   </div>
 </div>
 
-
-
 <div class="card">
    <Image
-              src={"/pic.jpg"}
+              src={"/laptop2.jpg"}
               alt="watching blogs"
               width={200}
               height={200}
@@ -37,6 +35,35 @@ const Fahmida = () => {
 </div>
 
 
+<div class="card">
+   <Image
+              src={"/pic.jpg"}
+              alt="watching blogs"
+              width={200}
+              height={200}
+            />
+  <div class="container">
+    <h4><b>Fahmida Faiza</b></h4> 
+    <p>CSE Engineer</p> 
+  </div>
+</div>
+
+
+<div className={styles.col}>
+
+
+<div class="card">
+   <Image
+              src={"/people.jpg"}
+              alt="watching blogs"
+              width={200}
+              height={200}
+            />
+  <div class="container">
+    <h4><b>Fahmida Faiza</b></h4> 
+    <p>CSE Engineer</p> 
+  </div>
+</div>
 
 
 
@@ -53,8 +80,47 @@ const Fahmida = () => {
     <p>CSE Engineer</p> 
   </div>
 </div>
+
+
+
+
+
+<div class="card">
+   <Image
+              src={"/pic.jpg"}
+              alt="watching blogs"
+              width={200}
+              height={200}
+            />
+  <div class="container">
+    <h4><b>Fahmida Faiza</b></h4> 
+    <p>CSE Engineer</p> 
+  </div>
+</div>
+
+
+
+</div>
+
+
+
+
+
             
-        </div>
+       
+       
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

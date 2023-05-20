@@ -2,9 +2,6 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 40%;
-   
-    
-  
     
 }
 
@@ -25,3 +22,11 @@ margin-top: 150px;
     
 }
 
+.col{
+    /* border: 2px solid red; */
+    position: relative;
+    margin-top: 350px;
+   right:105rem;
+   display: flex;
+gap: 150px;
+}

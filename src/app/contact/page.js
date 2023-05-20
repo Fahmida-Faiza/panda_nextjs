@@ -1,6 +1,7 @@
 import ContactCard from "@/components/ContactCard";
 import styles from "../contact/contact.module.css"
 import Contactform from "@/components/Contactform";
+import Footer from "@/components/Footer";
 const page = () => {
     return (
         <>
@@ -24,6 +25,10 @@ const page = () => {
 
 
            </div>
+
+
+
+           <Footer/>
            </>
 
     );

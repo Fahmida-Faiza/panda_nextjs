@@ -1,10 +1,13 @@
+import Footer from "@/components/Footer";
 import Herosection from "@/components/Herosection";
 
 
 const page = () => {
   return (
     <>
-     <Herosection />
+     <Herosection  title={"Let's watch"} imageUrl={"/pic.jpg"}/>
+
+     <Footer/>
     </>
   );
 };
